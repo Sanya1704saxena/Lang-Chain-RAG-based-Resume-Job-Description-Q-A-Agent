@@ -1,0 +1,2 @@
+# Lang-Chain-RAG-based-Resume-Job-Description-Q-A-Agent
+This project was built to enable recruiters &amp; job seekers to semantically search, filter, and analyze large volumes of resumes and jobs . It goes far beyond keyword search it understands intent, extracts relevant content, and uses local LLM reasoning to answer questions like:“What experience is required for digital marketing roles in Bangalore?” 
