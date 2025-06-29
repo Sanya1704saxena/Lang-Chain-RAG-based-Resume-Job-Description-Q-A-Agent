@@ -5,7 +5,7 @@ This project was built to enable recruiters &amp; job seekers to semantically se
 ## Document Chunking & Metadata Tagging : 
 We use `RecursiveCharacterTextSplitter` + LangChain `Document` objects to split large resumes and JDs into semantically relevant chunks. Metadata like job ID, title, location, and skills are embedded for precise filtering  a crucial step in structuring unstructured data.
 ## Embedding with BGE or MiniLM 
-We leveraged sentence-transformers like `BAAI/bge-base-en-v1.5` to embed these chunks into vector space. These embeddings capture semantic similarity , letting us match resumes and roles even when the keywords don’t align 1:1.
+We used sentence-transformers like `BAAI/bge-base-en-v1.5` to embed these chunks into vector space. These embeddings capture semantic similarity , letting us match resumes and roles even when the keywords don’t align 1:1.
 ## Chroma for Vector Store 
 Why Chroma?  
 It supports fast similarity search, metadata filtering, local persistence, and easy dev experience making it ideal over alternatives like FAISS or Qdrant for this use case. Chroma's filterable collections allowed us to isolate resume vs JD chunks efficiently during retrieval.
