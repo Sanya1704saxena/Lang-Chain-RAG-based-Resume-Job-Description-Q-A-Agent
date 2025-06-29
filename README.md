@@ -1,7 +1,7 @@
 # Lang-Chain-RAG-based-Resume-Job-Description-Q-A-Agent
 This project was built to enable recruiters &amp; job seekers to semantically search, filter, and analyze large volumes of resumes and jobs . It goes far beyond keyword search it understands intent, extracts relevant content, and uses local LLM reasoning to answer questions like:“What experience is required for digital marketing roles in Bangalore?” 
 
-#Key Features & Why They Matter
+# Key Features & Why They Matter
 ✅Document Chunking & Metadata Tagging : 
 We use `RecursiveCharacterTextSplitter` + LangChain `Document` objects to split large resumes and JDs into semantically relevant chunks. Metadata like job ID, title, location, and skills are embedded for precise filtering  a crucial step in structuring unstructured data.
 ✅ Embedding with BGE or MiniLM 
